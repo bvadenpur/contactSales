@@ -9,11 +9,8 @@ function App() {
   return (
     <div className="App">
      <Header/>
-
         <Herocomponent/>
-       
-         
-      <Footercomponent/>
+       <Footercomponent/>
     </div>
   );
 }
