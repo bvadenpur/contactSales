@@ -1,0 +1,120 @@
+.footer {
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+}.footer-container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 75rem;
+}
+.footer-logo-1 {
+    display: none;
+}
+
+a {
+    color: #23262d;
+    text-decoration: none;
+}
+
+.footer-grid {
+    display: grid;
+    padding-bottom: 1.25rem;
+    grid-row-gap: 2rem;
+    grid-template-areas: ". . . . .";
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-column-gap: 1rem;
+}
+
+.footer-logo {
+    margin-top: -0.25rem;
+}.footer-list {
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+.list-item {
+    color: #333943;
+}
+
+.title {
+    margin-bottom: 0.875rem;
+    font-family: sans-serif;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #333943;
+}
+
+.footer-link {
+    display: inline-block;
+    margin-bottom: 0.375rem;
+    padding-top: 0.1875rem;
+    padding-bottom: 0.1875rem;
+    transition: margin .3s,color .3s cubic-bezier(.23, 1, .32, 1);
+    font-family: sans-serif;
+    font-size: 0.8125rem;
+    text-decoration: none;
+    color: #333943;
+}
+.separator {
+    display: inline-block;
+    padding-top: 0.1875rem;
+    padding-bottom: 0.1875rem;
+    font-family: sans-serif;
+    color: #8e9ca1;
+    font-size: 0.75rem;
+}
+
+#LINKS {
+    grid-row-start: span 1;
+    grid-row-end: span 1;
+    grid-column-start: span 3;
+}
+
+.b-links {
+    margin-top: 1.25rem;
+    color: #333943;
+}
+.b-text{
+display: inline-block;
+padding-top: 0.1875rem;
+padding-bottom: 0.1875rem;
+font-family: sans-serif;
+color: #333943;
+font-size: 0.75rem;
+}
+
+.b-link {
+    display: inline-block;
+    margin-left: 1.25rem;
+    padding-top: 0.1875rem;
+    padding-bottom: 0.1875rem;
+    transition: margin .3s,color .3s cubic-bezier(.23, 1, .32, 1);
+    font-family: Cerapro,sans-serif;
+    color: #171c28;
+    font-size: 0.75rem;
+    text-decoration: none;
+}
+
+
+#S-links {
+    grid-row-start: span 1;
+    grid-row-end: span 1;
+    grid-column-start: span 2;
+    grid-column-end: span 2;
+}
+
+.social-links {
+    display: flex;
+    width: 100%;
+    margin-top: 1.25rem;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.social-link {
+    width: 1.125rem;
+    height: 1.125rem;
+}

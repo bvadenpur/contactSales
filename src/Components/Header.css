@@ -1,0 +1,121 @@
+
+
+.navbar-wrap {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+}
+
+.navbar {
+    position: sticky;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: auto;
+    z-index: 4;
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+}
+
+.navbar-bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: #fff;
+    box-shadow: 0 0.125rem 0.5rem 0 rgb(95 126 155 / 15%);
+}
+
+.nav {
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 0;
+    padding-left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 105rem;
+    pointer-events: auto;
+}
+
+.nav-logo {
+    width: 8rem;
+    color: #23262d;
+    max-width: 100%;
+    display: inline-block;
+}
+
+.nav-links {
+    display: flex;
+    margin-bottom: 0;
+    padding-top: 0.125rem;
+    padding-bottom: 0.125rem;
+    padding-left: 0;
+    align-items: center;
+    list-style-type: none;
+}
+
+.nav-item {
+    position: relative;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    padding: 1.25rem;
+    color: #23262d;
+    font-size: 0.875rem;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.m-r-4 {
+    margin-right: 0.25rem;
+}
+
+.arrow {
+    display: flex;
+    transition: transform .4s cubic-bezier(.19, 1, .22, 1),-webkit-transform .4s cubic-bezier(.19, 1, .22, 1);
+    transform: rotate(0);
+    cursor: default;
+}
+
+a {
+    color: #23262d;
+    text-decoration: none;
+}
+
+.sign-up {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.login {
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    display: inline-block;
+    color: #23262d;
+    font-weight: 500;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.button {
+    position: relative;
+    padding: 0.5rem 0.75rem;
+    font-size: 0.875rem;
+    border-radius: 6.25rem;
+    background-color: #007afc;
+    transition: 150ms;
+    color: #fff;
+    line-height: 1rem;
+    font-weight: 500;
+    text-align: center;
+}
