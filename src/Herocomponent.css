@@ -31,7 +31,7 @@ main {
     margin-left: auto;
     margin-right: auto;
     max-width: 58.75rem;
-    display: flex;
+    /* display: flex; */
 }
 
 @media (min-width: 992px){
@@ -142,7 +142,14 @@ img {
     display: inline-block;
     max-width: 100%;
 }
-
+img {
+    border: 0;
+    vertical-align: middle;
+    display: inline-block;
+    max-width: 100%;
+    width: 9.375rem;
+    height: 1.75rem;
+}
 .p-small {
     color: #616d72;
     font-weight: 500;
@@ -347,3 +354,111 @@ textarea {
     text-decoration: none;
     border: 0;
 }
+
+@media screen and (max-width: 767px){
+.main {
+    padding-top: 2.5rem;
+}}
+
+@media screen and (max-width: 991px){
+.hero-section {
+    padding-top: 5rem;
+    padding-bottom: 2.5rem;
+}}
+
+@media screen and (max-width: 767px){
+.hero-section {
+    padding: 2.5rem 1.25rem;
+}}
+
+@media screen and (max-width: 479px){
+.container {
+    max-width: none;
+}}
+
+@media screen and (max-width: 991px){
+.sales {
+    max-width: 31.25rem;
+    margin-bottom: 2.5rem;
+}}
+
+@media screen and (max-width: 991px){
+.sale {
+    margin-bottom: 2.5rem;
+}}
+
+@media screen and (max-width: 767px){
+.h-1 {
+    font-size: 2rem;
+}}
+
+@media screen and (max-width: 767px){
+.p-medium {
+    font-size: 1rem;
+}}
+
+@media screen and (max-width: 767px){
+.p-normal {
+    font-size: 0.9375rem;
+}}
+
+@media screen and (max-width: 767px){
+.sales-list {
+    max-width: 21.875rem;
+    font-size: 0.9375rem;
+}}
+
+@media screen and (max-width: 991px){
+.sales-list {
+    max-width: 26.25rem;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: left;
+}}
+@media screen and (max-width: 479px){
+.sales-list {
+    line-height: 1.5em;
+}}
+
+@media screen and (max-width: 991px){
+.quote {
+    text-align: center;
+}}
+
+
+@media screen and (max-width: 767px){
+.sales-form {
+    padding-right: 1.25rem;
+    padding-bottom: 3rem;
+    padding-left: 1.25rem;
+}}
+
+@media screen and (max-width: 991px){
+.sales-form {
+    width: 100%;
+    margin-left: 0;
+}}
+
+@media only screen and (max-width: 480px){
+.email {
+    clear: both;
+    float: none;
+}}
+
+@media only screen and (max-width: 480px){
+.email-input {
+    clear: left;
+}}
+
+@media only screen and (max-width: 480px){
+.field-wrap {
+    float: left;
+    box-sizing: border-box;
+    clear: both;
+}}
+
+@media only screen and (max-width: 480px){
+.LABELS {
+    text-align: left;
+    width: 100%;
+}}

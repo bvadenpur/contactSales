@@ -20,6 +20,17 @@
     padding-left: 1.25rem;
 }
 
+@media screen and (max-width: 497px){
+.navbar {
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+}}
+
+@media screen and (max-width: 767px){
+.navbar {
+    padding: 0.25rem 1.5rem;
+}}
+
 .navbar-bg {
     position: absolute;
     left: 0;
@@ -29,6 +40,11 @@
     background: #fff;
     box-shadow: 0 0.125rem 0.5rem 0 rgb(95 126 155 / 15%);
 }
+
+@media screen and (max-width: 991px){
+.navbar-bg {
+    background: #fff;
+}}
 
 .nav {
     position: relative;
@@ -42,6 +58,12 @@
     max-width: 105rem;
     pointer-events: auto;
 }
+
+@media screen and (max-width: 767px){
+.nav-logo {
+    width: 6.75em;
+}}
+
 
 .nav-logo {
     width: 8rem;
@@ -119,3 +141,88 @@ a {
     font-weight: 500;
     text-align: center;
 }
+
+
+@media screen and (max-width: 991px){
+.nav-links {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: auto;
+    display: none;
+    overflow: auto;
+    max-height: 90vh;
+    padding: 1rem 1.5rem 1.125rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    border-radius: 0.5rem;
+    background-color: #fff;
+    box-shadow: 0 1px 0.5rem 0 rgb(14 16 18 / 10%);
+}}
+
+@media screen and (max-width: 767px){
+.nav-links {
+    top: 3.25rem;
+}}
+
+@media screen and (max-width: 991px){
+.nav-item {
+    width: 100%;
+    -webkit-box-align: start;
+    align-items: flex-start;
+    border-bottom: 1px solid #d5dae2;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+}}
+
+
+@media screen and (max-width: 991px){
+.login {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}}
+
+@media screen and (max-width: 479px){
+.login {
+    display: none;
+}}
+
+@media screen and (max-width: 991px){
+.menu-burger {
+    position: relative;
+    width: 2.75rem;
+    /* height: 44px; */
+    margin-left: 0.5rem;
+    padding: 0;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    cursor: pointer;
+    display: -webkit-box;
+    -webkit-box-pack: center;
+}}
+
+@media screen and (max-width: 991px){
+.burger {
+    position: absolute;
+    width: 1.25rem;
+    height: 0.125rem;
+    padding: 0;
+    background-color: #23262d;
+}}
+
+@media screen and (max-width: 991px){
+.burger._1 {
+    transform: translate3d(0px, -3px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+}}
+
+@media screen and (max-width: 991px){
+.burger._2 {
+    transform: translate3d(0px, 3px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+}}
