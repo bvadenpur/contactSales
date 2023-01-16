@@ -9,7 +9,7 @@ export default function Herocomponent() {
             <div className='container'>
      <div class="sales"> 
                  <div class="sale">
-                    <h1 class="h-1">contact sales</h1>
+                    <h1 class="h-1">Contact sales</h1>
                     <p class="p-medium">Fill out the form to contact our sales team.</p>
                     <p class="p-normal">We're here to help:</p>
                    <ul class="sales-list">

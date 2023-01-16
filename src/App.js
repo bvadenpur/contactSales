@@ -7,7 +7,7 @@ import Footercomponent from './Footercomponent';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App page-wrap">
      <Header/>
         <Herocomponent/>
        <Footercomponent/>

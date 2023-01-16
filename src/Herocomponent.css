@@ -3,9 +3,11 @@
     position: relative;
     padding-top: 9rem;
     padding-bottom: 4.5rem;
+    padding-left: 40px;
+    padding-right: 40px;
     margin-left: auto;
     margin-right: auto;
-    max-width: 73.5rem;
+    
 }
 
 main {
@@ -31,6 +33,7 @@ main {
     margin-left: auto;
     margin-right: auto;
     max-width: 58.75rem;
+    justify-content: space-between;
     /* display: flex; */
 }
 
@@ -46,6 +49,7 @@ main {
     flex-direction: column;
     -webkit-box-pack: justify;
     justify-content: space-between;
+    max-width: 420px;
 }
 
 .sale {
@@ -78,7 +82,7 @@ main {
     padding-left: 0;
     font-size: 1.125rem;
     line-height: 1.77em;
-    color: #616d72;
+    /* color: #616d72; */
 }
 
 .list-items {
@@ -147,7 +151,7 @@ img {
     vertical-align: middle;
     display: inline-block;
     max-width: 100%;
-    width: 9.375rem;
+    /* width: 9.375rem; */
     height: 1.75rem;
 }
 .p-small {

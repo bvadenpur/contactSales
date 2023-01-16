@@ -37,9 +37,14 @@
     top: 0;
     right: 0;
     bottom: 0;
-    background: #fff;
-    box-shadow: 0 0.125rem 0.5rem 0 rgb(95 126 155 / 15%);
+    background-color: hsla(0,0%,100%,.75);
+    /* box-shadow: 0 0.125rem 0.5rem 0 rgb(95 126 155 / 15%); */
 }
+
+.navbar-bg {
+    backdrop-filter: blur(10px);
+}
+
 
 @media screen and (max-width: 991px){
 .navbar-bg {
