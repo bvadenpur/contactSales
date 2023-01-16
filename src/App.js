@@ -5,12 +5,16 @@ import Herocomponent from './Herocomponent';
 
 import Footercomponent from './Footercomponent';
 
+
+
+
 function App() {
   return (
     <div className="App page-wrap">
      <Header/>
         <Herocomponent/>
-       <Footercomponent/>
+     
+     <Footercomponent/>
     </div>
   );
 }
