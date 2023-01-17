@@ -3,7 +3,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  line-height: 1.6em; 
+  line-height: 1.6em;
 }
 
 body {
@@ -20,9 +20,9 @@ code {
 }
 
 
-@media screen and (min-width: 1280px){
-body {
+@media screen and (min-width: 1280px) {
+  body {
     color: #333943;
     letter-spacing: -.01em;
-}}
-
+  }
+}

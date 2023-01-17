@@ -1,20 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
-import Header from './Components/Header';
-import Herocomponent from './Herocomponent';
-
-import Footercomponent from './Footercomponent';
-
-
-
+import "./App.css";
+import Header from "./Components/Header";
+import Herocomponent from "./Components/Herocomponent";
+import Footercomponent from "./Components/Footercomponent";
 
 function App() {
   return (
     <div className="App page-wrap">
-     <Header/>
-        <Herocomponent/>
-     
-     <Footercomponent/>
+      <Header />
+      <Herocomponent />
+      <Footercomponent />
     </div>
   );
 }
