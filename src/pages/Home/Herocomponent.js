@@ -1,7 +1,7 @@
 import React from "react";
 import "./Herocomponent.css";
 import SalesComponent from "./Salescomponent";
-import SalesformComponent from "./Salesformcomponent";
+import SalesformComponent from "../../Components/form/Salesformcomponent";
 
 export default function Herocomponent() {
   return (

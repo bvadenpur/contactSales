@@ -1,7 +1,7 @@
 import "./App.css";
-import Header from "./Components/Header";
-import Herocomponent from "./Components/Herocomponent";
-import Footercomponent from "./Components/Footercomponent";
+import Header from "./pages/Home/Header";
+import Herocomponent from "./pages/Home/Herocomponent";
+import Footercomponent from "./pages/Home/Footercomponent";
 
 function App() {
   return (

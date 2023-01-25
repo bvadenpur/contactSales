@@ -1,12 +1,3 @@
-.navbar-wrap {
-    position: absolute;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    pointer-events: none;
-}
-
 .navbar {
     position: sticky;
     left: 0;
@@ -118,36 +109,6 @@ a {
     text-decoration: none;
 }
 
-.sign-up {
-    display: flex;
-    align-items: center;
-}
-
-
-
-.login {
-    padding-top: 0.3125rem;
-    padding-bottom: 0.3125rem;
-    margin-right: 1rem;
-    display: inline-block;
-    color: #23262d;
-    font-weight: 500;
-    text-decoration: none;
-    white-space: nowrap;
-}
-
-.button {
-    position: relative;
-    padding: 0.5rem 0.75rem;
-    font-size: 0.875rem;
-    border-radius: 6.25rem;
-    background-color: #007afc;
-    transition: 150ms;
-    color: #fff;
-    line-height: 1rem;
-    font-weight: 500;
-    text-align: center;
-}
 
 
 @media screen and (max-width: 991px) {
@@ -189,56 +150,3 @@ a {
 }
 
 
-@media screen and (max-width: 991px) {
-    .login {
-        padding-top: 0.75rem;
-        padding-bottom: 0.75rem;
-    }
-}
-
-@media screen and (max-width: 479px) {
-    .login {
-        display: none;
-    }
-}
-
-@media screen and (max-width: 991px) {
-    .menu-burger {
-        position: relative;
-        width: 2.75rem;
-        /* height: 44px; */
-        margin-left: 0.5rem;
-        padding: 0;
-        -webkit-box-pack: center;
-        justify-content: center;
-        -webkit-box-align: center;
-        align-items: center;
-        cursor: pointer;
-        display: -webkit-box;
-        -webkit-box-pack: center;
-    }
-}
-
-@media screen and (max-width: 991px) {
-    .burger {
-        position: absolute;
-        width: 1.25rem;
-        height: 0.125rem;
-        padding: 0;
-        background-color: #23262d;
-    }
-}
-
-@media screen and (max-width: 991px) {
-    .burger._1 {
-        transform: translate3d(0px, -3px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
-        transform-style: preserve-3d;
-    }
-}
-
-@media screen and (max-width: 991px) {
-    .burger._2 {
-        transform: translate3d(0px, 3px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
-        transform-style: preserve-3d;
-    }
-}

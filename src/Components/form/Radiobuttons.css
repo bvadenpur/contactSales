@@ -1,0 +1,35 @@
+
+#Radiolist {
+    margin-top: 0.25rem !important;
+    margin-bottom: -0.5rem !important;
+}
+
+.radio-list {
+    float: none;
+    clear: left;
+    width: 100%;
+    padding: 0px;
+}
+
+#Radiolist input {
+    display: inline-block !important;
+    width: 1.25rem !important;
+    height: 1.25rem !important;
+    min-height: 0px !important;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    margin-right: 0.5rem !important;
+}
+
+#Radiolist label {
+    margin-top: 0px !important;
+    margin-bottom: 0.75rem !important;
+    margin-left: 0px !important;
+    padding-left: 0px !important;
+    display: inline-block !important;
+    position: relative !important;
+    top: -1px !important;
+    width: calc(100% - 28pt) !important;
+    font-weight: 400 !important;
+    font-size: 0.9375rem !important;
+}
